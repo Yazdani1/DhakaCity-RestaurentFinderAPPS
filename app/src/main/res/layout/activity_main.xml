@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rescollapsing"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/my_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dhanmondi_btn"
+                android:layout_margin="10dp"
+                android:background="#fbb4af0d"
+                android:textColor="#000"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="Dhanmondi"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fbb4af0d"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:id="@+id/Uttara_btn"
+                android:text="Uttara"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#fbb4af0d"
+                android:textColor="#000"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:id="@+id/Mirpur_btn"
+                android:text="Motijheel"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:background="#fbb4af0d"
+                android:textColor="#000"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:id="@+id/Gulsan_btn"
+                android:text="Gulsan"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:background="#fbb4af0d"
+                android:textColor="#000"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:id="@+id/Khilgaon_btn"
+                android:text="Elephant Road"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

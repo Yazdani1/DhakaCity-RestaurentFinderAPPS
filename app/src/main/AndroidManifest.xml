@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="restaurentfinder.ingeniumbd.restaurentfinder">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DhanmondiActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".UttaraActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".GulsanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".DhanmondiItemActivity.ZeroActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DhanmondiActivity" />
+        </activity>
+        >
+        <activity android:name=".DhanmondiItemActivity.OneActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DhanmondiActivity" />
+        </activity>
+        <activity android:name=".DhanmondiItemActivity.TwoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DhanmondiActivity" />
+        </activity>
+        <activity android:name=".DhanmondiItemActivity.ThreeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DhanmondiActivity" />
+        </activity>
+        <activity android:name=".DhanmondiItemActivity.FourActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DhanmondiActivity" />
+        </activity>
+        <activity android:name=".DhanmondiItemActivity.FiveActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DhanmondiActivity" />
+        </activity>
+        <activity android:name=".DhanmondiItemActivity.SixActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DhanmondiActivity" />
+        </activity>
+        <activity android:name=".UttaraItemActivity.UtzeroActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UttaraActivity" />
+        </activity>
+        <activity android:name=".UttaraItemActivity.UtoneActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UttaraActivity" />
+        </activity>
+        <activity android:name=".UttaraItemActivity.UttwoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UttaraActivity" />
+        </activity>
+        <activity android:name=".UttaraItemActivity.UtThreeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UttaraActivity" />
+        </activity>
+        <activity android:name=".MotijilActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motijil_zero_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motijil_one_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motijil_two_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motiji_three_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motijil_four_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motijil_five_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motijil_six_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motijil_seven_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".MotijilItemActivity.Motijil_eight_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotijilActivity" />
+        </activity>
+        <activity android:name=".GulsanItemActivity.Gulsan_zero_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GulsanActivity" />
+        </activity>
+        <activity android:name=".GulsanItemActivity.Gulsan_one_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GulsanActivity" />
+        </activity>
+        <activity android:name=".GulsanItemActivity.Gulsan_two_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GulsanActivity" />
+        </activity>
+        <activity android:name=".GulsanItemActivity.Gulsan_three_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GulsanActivity" />
+        </activity>
+        <activity android:name=".EliphentRoadActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+
+        <activity android:name=".EliphentRoadItemActivity.Eliphent_zero_Activity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EliphentRoadActivity" />
+
+        </activity>
+
+        <activity android:name=".EliphentRoadItemActivity.Eliphent_one_Activity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EliphentRoadActivity" />
+
+        </activity>
+    </application>
+
+</manifest>

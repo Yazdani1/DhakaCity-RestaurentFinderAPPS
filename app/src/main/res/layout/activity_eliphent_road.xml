@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_eliphent_road"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6A1B9A"
+    tools:context="restaurentfinder.ingeniumbd.restaurentfinder.EliphentRoadActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/eliphent_road_toolbar"/>
+
+    <ListView
+        android:layout_below="@id/eliphent_road_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/eliphent_road_list"
+        />
+
+
+</RelativeLayout>
